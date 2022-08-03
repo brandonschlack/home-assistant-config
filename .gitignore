@@ -1,0 +1,18 @@
+# Ignore everything
+*
+# Whitelist
+!*.yaml
+!.gitignore
+!*.md
+!blueprints
+!packages
+
+# Ignore folders.
+.storage
+.cloud
+.google.token
+
+# Secrets/Data
+ip_bans.yaml
+secrets.yaml
+known_devices.yaml
